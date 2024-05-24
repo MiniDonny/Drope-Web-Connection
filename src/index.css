@@ -1,0 +1,57 @@
+/*------------------------FUENTE LETRA----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*---------------------------GENERAL-----------------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*---------------------------COLORES----------------------*/
+:root{
+    /*negreo,grises,celeste*/
+    --negro: #0D0D0D;
+    --gris-negro: #262626;
+    --gris: #595959;
+    --gris-blanco: #8C8C8C;
+    --gris-blanco-claro: #A6A6A6;
+    --blanco: #FFFFFF;
+}
+
+/*------------------------------BODY---------------------*/
+
+/*---------------HEADER--------------------*/
+/*-BARRA NAVEGACIÓN-*/
+.contenedor_navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+/*--------------MAIN-----------------------*/
+/*TITLE*/
+.contenedor_titulo{
+
+}
+
+.titulo{
+
+}
+
+@media (max-width: 340px){
+    .contenedor_navegacion{
+        display: flex;
+        flex-direction: column;
+        padding: 1.1rem;
+        align-items: start;
+    }
+}
