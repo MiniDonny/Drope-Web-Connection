@@ -1,9 +1,10 @@
+/*MODIFICADOR HTML*/
+document.addEventListener('DOMContentLoaded', () => {
+    bottonMenuHamburguesa();
+});
 
-/*BURGER MENU*/
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+const bottonMenuHamburguesa = document.querySelector('menu_hamburguesa');
 
-let animacionMenuIcon = menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-}
+bottonMenuHamburguesa.addEventListener('click', () =>{
+    bottonMenuHamburguesa.classList.toggle('activo');
+});
